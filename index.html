@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аромабутік</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet">
+       <link rel="stylesheet" href="./components/scss/main.css"/>
+</head>
+<body>
+        <header class="page-header">
+        <div class="container page-header-container">
+          <nav class="page-nav">
+            <a class="logo" href="//img">
+            <img class="logo-img" src="./img/logo1.png" alt="логотип" width="70px">
+            </a>
+            <ul class="menu list">
+              <li class="menu-item">
+                <a class="menu-link" href="#Пронас">Про нас
+                </a> 
+              </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#Бренди">Бренди</a>
+               </li>
+              <li class="menu-item">
+                <a class="menu-link" href="#Магазин">Магазин
+                    </a></li>
+              <li class="menu-item">
+                <a class="menu-link" href="#Контакти">Контакти</a></li>
+        </ul>
+        </nav>
+        <!--btn paragraph-->
+       
+        <button type="button" class="mobile-menu-open mobile-btn" data-menu-open>
+            <svg width="40px" height="40px">
+                <use href="./icon/sprite.svg#icon-paragraph-justify"></use>
+            </svg>
+        </button>
+        <a class="tel" href="tel:+380639772440">+38 063 977 24 40</a>
+      
+        <!--btn shop-->
+        <button type="submit" class="shop-btn-main mobile-btn">
+            <svg class="mcb" width="40px" height="40px">
+                <use href="./icon/sprite.svg#icon-cart">
+                </use>
+            </svg>
+        </button>
+     
+    <div class="info-btn">
+    <button class="modal-btn page-header-modal-btn" type="button" data-modal-open>Допомога парфумерного стиліста</button>
+        </div>    
+</div>
+<!--btn paragraph window-->
+    <div class="mobile-menu"data-menu>
+        <div class="container mobile-menu_container">
+        <button class="mobile-menu_close-btn" data-menu-close>
+            <svg class="mobile-menu_close-icon" width="40px" height="40px">
+                <use href="/icon/Close_icon-icons.com_71857.svg#Layer_1"></use>
+            </svg>
+        </button>
+        <ul class="mobile-menu_list list">
+            <li class="mobile-menu-list1">
+                <a class="mobile-menu-link" href="">Магазин</a>
+            </li>
+            <li class="mobile-menu-list1">
+                <a class="mobile-menu-link" href="">Про нас</a>
+            </li>
+            <li class="mobile-menu-list1">
+                <a class="mobile-menu-link" href="">Контакти</a>
+            </li>
+        </ul>
+        <ul class="mobile-adress-block list">
+        <li class="mobile-adress-block1"> 
+        <a class="mobile-tel-menu-link" href="tel:+380639772440">+38 063 977 24 40</a>
+    </li>
+    <li class="mobile-adress-block1">
+        <a class="mobile-mail-menu-link" href="mailto:aromabutik@gmail.com">aromabutik@gmail.com</a>
+    </li>
+   </ul>
+   <ul class="mobile-menu_soc list">
+    <li class="mobile-menu-soc1">
+        <a class="mobile-menu-social" href="">Instagram</a>
+    </li>
+    <li class="mobile-menu-soc1">
+        <a class="mobile-menu-social" href="">Facebook</a>
+    </li>
+    <li class="mobile-menu-soc1">
+        <a class="mobile-menu-social" href="">Youtube</a>
+    </li>
+</ul>
+    </div>
+    
+    </div>
+    </header>
+    <!-- HERO -->
+    <main>
+        <section class="hero hero-container">
+            <div class="container left-right">
+            <div class="hero-left-side social-box">
+                <ul class="list social">
+                    <Li class="social-item">
+                        <a class="social-item-link insta" href="" lang="en">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Instagram</a>
+                    </Li>
+                    <Li class="social-item">
+                        <a class="social-item-link tik" href="" lang="en">TikTok</a>
+                    </Li>
+                </ul>
+            </div>
+            <div class="hero-right-side">
+                <p class="suptitle">обери парфуми, які розкриють твої почуття!</p>
+                <h1 class="main-title" lang="en">AromaBoutique</h1>
+                <p class="suptitle1">Ми раді вам представити нішеві та люксові парфумерні бренди з різних країн світу, <br> а також пишаємося, тим, що можемо вас познайомити з українською авторською парфумерією</p>
+            </div>
+        </div>
+        </section>
+        <!--ABOUT-->
+       <!-- <section class="about-section">
+            <div class="container">  
+           <h2 id="Пронас" class="suptitle2">Ми інтернет-магазин нішевої та люксової парфумерії "AROMABOUTIQUE". <br>Ми гарантуємо Вам, що продаємо тільки оригінальну продукцію.
+            </h2>
+            <div class="galery-about"> 
+            <img src="./img/parfshelf.jpeg" alt="лавка з парфумами у парфумерноу магазині" width="286"/>
+            <img class="long-picture" src="/img/parfshop.jpeg" alt="інттер'єр парфумерного магазину" width="500"/>
+            <img src="./img/flacon.jpeg" alt="флакон парфумів на туалетному столику" width="286"/>
+            </div>
+          <div>
+            <p class="text-component">Парфум — це те, що кожна людина повинна спробувати та носити у своєму повсякденному житті. Чудові парфуми можуть зіграти важливу роль, щоб змінити ваш настрій, змусити вас почуватись краще, допомогти витримати навантаження чи створити певне враження та покращити ваш настрій. Наша мета полягає в тому, щоб допомогти вам проявити та реалізували себе, обрав аромат, незважаючи на штами та шаблони, що нав'язані ззовні. Ми хочемо, щоб ви були вільними у своєму виборі, були справжні та духмяно щасливі :)</p>
+        </div>
+        </div>
+        </section>-->
+        <!-- BRAND LIST -->
+        <!--<section id="Бренди" class="brand-section">
+            <div class="container">
+                <div class="background-brand-list">
+                <p class="info-text">Ознайомся з переліком брендів парфумерії:</p>
+            <div class="brand-list">
+            <div class="box">
+                <h2 class="text-list text-box">Нішева парфумерія</h2>
+           <ul class="list text-list-item text-box">
+                <li> <a class="brand-item text-list-item" href="#Marc-Antoine-Barrois" lang="en">Marc-Antoine Barrois</a></li>
+                <li> <a class="brand-item text-list-item" href="#Francesca-Bianchi" lang="en">Francesca Bianchi</a></li>
+                <li> <a class="brand-item text-list-item" href="" lang="en">Zoologist Perfumes</a></li>
+                <li> <a class="brand-item text-list-item" href="" lang="en">Naomi Goodsir</a></li>
+                <li> <a class="brand-item text-list-item" href="" lang="en">Orto Parisi</a></li>
+                <li> <a class="brand-item text-list-item" href="" lang="en">Amouage</a></li>
+                <li> <a class="brand-item text-list-item" href="" lang="en">Le Labo</a></li>
+                <li> <a class="brand-item text-list-item" href="" lang="en">Ex Nihilo</a></li>
+            </ul>
+            </div>
+            <div class="box">
+            <h2 class="text-list text-box">Люксова парфумерія</h2>
+            <ul class="list text-list-item text-box">
+                <li> <a class="brand-item text-list-item" href="" lang="en">Chanel</a></li>
+                <li> <a class="brand-item text-list-item" href="" lang="fr">Hermès</a></li>
+                <li> <a class="brand-item text-list-item" href="" lang="en">Comme des Garcons</a></li>
+                <li> <a class="brand-item text-list-item" href="" lang="en">Dior</a></li>
+                <li> <a class="brand-item text-list-item" href="" lang="en">Guerlain</a></li>
+                <li> <a class="brand-item text-list-item" href="" lang="en">Juliette Has A Gun</a></li>
+                <li> <a class="brand-item text-list-item" href="" lang="en">Loewe</a></li>
+                <li> <a class="brand-item text-list-item" href="" lang="en">Louis Vuitton</a></li>
+            </ul>
+            </div>
+    </div>
+</div>
+            </div>
+     </section>-->
+     <!-- SHOP PAGE1 -->
+    <!--<section id="Магазин">-->
+        <!--Marc Antoine Barrois-->
+<!--<section class="barrois">
+            <div class="container">
+            <h2 id="Marc-Antoine-Barrois" class="text-list-title" lang="en">Marc-Antoine Barrois</h2>
+            <ul class="list shop-card">
+                <li class="card-overlay1"> 
+                <a href="#" class="card-overlay">
+                        <div class="wrapper">
+                    <p class="overlay">Це парфум для жінок та чоловіків, належить до групи ароматів Квіткові Деревні Мускусні.<br /><span>Tilia</span> був випущений в 2024 році.<br />Парфумер: <span>Quentin Bisch</span>.<br /><strong>Верхні ноти:</strong> Липовий Цвіт, Жасмин Самбак і Дрок;<br /><strong>Ноти серця:</strong> Геліотроп, Ветивер і Апельсиновий Цвіт;<br /><strong>Ноти бази: </strong><span>Ambrofix™</span> і <span>Georgywood</span><br />Простий. Сонячний. Усміхнений. Це аромат літа, що ніколи не закінчується. Відпустка, яка триває. Довгі обіди з друзями за великим дерев'яним столом у сільській місцевості. Квіти, які ніколи не перестають цвісти.</p>
+                    <a href="./pages-item/barrois/tilia.html"><img class="card" src="./img/tilia.jpg" alt="флакон парфумів Тілія" width="280"/>
+                    </a>
+                    </div>
+                    <h3 class="card-name" lang="en">Tilia (edp)</h3>
+                </a>-->
+                    <!----checkbox----->
+                    <!--<fieldset class="value-item">
+                    <div class="value-item-price">
+                        <input type="radio" name="value-parf" id="tilia-30" class="value-item-parf" value="30ml"/>
+                        <label for="tilia-30">30ml</label>
+                        <p class="price-parf">5 400 грн</p>
+                    </div>
+                    <div class="value-item-price">
+                        <input type="radio" name="value-parf" id="tilia-100" class="value-item-parf" value="100ml"/>
+                        <label for="tilia-100">100ml</label>
+                        <p class="price-parf">9 200 грн</p>
+                    </div>
+                    </fieldset>-->
+                    <!------checkbox------->
+                    
+                <!--<div class="two-btn">
+                    <button class="shop-btn" type="submit">у кошик</button>
+                    
+                </div>
+                 
+                </li>
+                <li class="card-overlay1">
+                    <a href="#" class="card-overlay">
+                     <div class="wrapper">
+                    <p class="overlay">Це парфум для жінок та чоловіків, належить до групи ароматів Квіткові.<br/><span>Aldebaran</span> був випущений в 2024 році.<br/>Парфумер:<span>Quentin Bisch</span>.<br/><strong>Верхні ноти:</strong> Тубероза;<br/><strong>Ноти серця:</strong>Мате і Паприка;<br/><strong>Ноти бази:</strong>Боби Тонка<br/>Біле світло в темряві. Таємниче світло, що випромінюється з нічної галявини. Ласка Місяця на полі тубероз, бездоганні пелюстки, які відображають світло зірки, як дзеркало.</p> 
+                    <a href="./pages-item/barrois/aldebaran.html">
+                    <img class="card" src="./img/aldebaran.jpg" alt="флакон парфумів Альдебаран" width="280"/>
+                </a>    
+                </div>
+                    <h3 class="card-name" lang="en">Aldebaran (edp)</h3>
+                </a>-->
+                    <!-----checkbox----->
+                    <!--<fieldset class="value-item">
+                        <div class="value-item-price">
+                            <input type="radio" name="value-parf" id="aldebaran" class="value-item-parf" value="30ml"/>
+                            <label for="aldebaran">30ml</label>
+                            <p class="price-parf">5 400 грн</p>
+                        </div>
+                        <div class="value-item-price">
+                            <input type="radio" name="value-parf" id="aldebaran-100" class="value-item-parf" value="100ml"/>
+                            <label for="aldebaran-100">100ml</label>
+                            <p class="price-parf">9 200 грн</p>
+                        </div>
+                        </fieldset>-->
+                        <!-------checkbox------->
+                    <!--<div class="two-btn">
+                    <button class="shop-btn" type="submit">у кошик</button>
+                    
+                </div>  
+                </li>
+                <li class="card-overlay1"> 
+                    <a href="#" class="card-overlay">
+                    <div class="wrapper">
+                    <p class="overlay">Це парфум для жінок та чоловіків, належить до групи ароматів Деревні Пряні.<br/><span>Ganymede</span> був випущений в 2019 році.<br/>Парфумер:<span>Quentin Bisch</span>.<br/><strong>Верхні ноти:</strong> Шафран і Італійський Мандарин;<br/><strong>Ноти серця:</strong>Китайський Османтус, Безсмертник і Лист Фіалки;<br/><strong>Ноти бази: </strong>Мінеральні Ноти, Замша, <span>Akigalawood</span>, Мускус, Кедр і Пачулі<br/>Яскрава мандаринова кислинка та глибокі деревні ноти – саме той необхідний штрих, що робить аромат Ганімед таким багатогранним та бажаним. Поступово розкриваючись на шкірі, нотки дорогоцінного шафрану показують необхідні та унікальні контрасти для парфумів Ганімед.</p>
+                    <a href="./pages-item/barrois/ganymed.html">
+                    <img class="card" src="./img/ganymed.jpg" alt="флакон парфумів Ганімед" width="280"/>
+                </a>    
+                </div>
+                    <h3 class="card-name" lang="en">Ganymed (edp)</h3>
+                </a>-->
+                    <!-----checkbox----->
+                    <!--<fieldset class="value-item">
+                        <div class="value-item-price">
+                            <input type="radio" name="value-parf" id="ganymed-30" class="value-item-parf" value="30ml"/>
+                            <label for="ganymed-30">30ml</label>
+                            <p class="price-parf">5 400 грн</p>
+                        </div>
+                        <div class="value-item-price">
+                            <input type="radio" name="value-parf" id="ganymed-100" class="value-item-parf" value="100ml"/>
+                            <label for="ganymed-100">100ml</label>
+                            <p class="price-parf">9 200 грн</p>
+                        </div>
+                        </fieldset>-->
+                        <!-------checkbox------->
+                    <!--<div class="two-btn"> 
+                    <button class="shop-btn" type="submit">у кошик</button>
+               </div>
+                </li>
+                <li class="card-overlay1">
+                    <a href="#" class="card-overlay">
+                    <div class="wrapper">
+                    <p class="overlay">Це парфум для жінок та чоловіків, належить до групи ароматів Ароматичні Зелені.<br/><span>Encelade</span> був випущений в 2022 році.<br/>Парфумер:<span>Quentin Bisch</span>.<br/><strong>Верхні ноти:</strong> Ревінь;<br/><strong>Ноти серця:</strong>Кедр;<br/><strong>Ноти бази: </strong>Ветивер, Сандал, Боби Тонка і Шкіра;<br/>Багатий ревенем, кедром і ветивером, зачаровує своєю шкірою, бобами тонка і молочним сандалом.</p>
+                    <a href="./pages-item/barrois/encelade.html">
+                    <img class="card" src="./img/encelade.jpg" alt="флакон парфумів Енцелад" width="280"/>
+                </a>    
+                </div>
+                    <h3 class="card-name" lang="en">Encelade (edp)</h3>
+                </a>-->
+                    <!-----checkbox----->
+                    <!--<fieldset class="value-item">
+                        <div class="value-item-price">
+                            <input type="radio" name="value-parf" id="encelade-30" class="value-item-parf" value="30ml"/>
+                            <label for="encelade-30">30ml</label>
+                            <p class="price-parf">5 400 грн</p>
+                        </div>
+                        <div class="value-item-price">
+                            <input type="radio" name="value-parf" id="encelade-100" class="value-item-parf" value="100ml"/>
+                            <label for="encelade-100">100ml</label>
+                            <p class="price-parf">9 200 грн</p>
+                        </div>
+                        </fieldset>-->
+                        <!-------checkbox------->
+                    <!--<div class="two-btn">
+                    <button class="shop-btn" type="submit">у кошик</button>
+                </div>
+                </li>
+                <li class="card-overlay1">
+                    <a href="#" class="card-overlay">
+                    <div class="wrapper">
+                    <p class="overlay">Це парфум для жінок та чоловіків, належить до групи ароматів Деревні Пряні.<br/><span>B683</span> був випущений в 2016 році.<br/>Парфумер:<span>Quentin Bisch</span>.<br/><strong>Верхні ноти:</strong>Шафран, Чорний Перець, Мускатний Горіх і Червоний Перець Чилі;<br/><strong>Ноти серця:</strong>Лист Фіалки, Мускус, Лабданум і Амбра;<br/><strong>Ноти бази: </strong>Амброксан, Сандал, Пачулі і Дубовий Мох.<br/>“Магнетичний аромат…ніби зустріч з легендою” Пабло Перес, менеджер <span>Senteurs d'Ailleurs Bruxelles</span>.</p>
+                    <a href="./pages-item/barrois/b683.html">
+                    <img class="card" src="./img/b683.jpg" alt="флакон парфумів Б683" width="280"/>
+                </a>
+                </div>
+                    <h3 class="card-name" lang="en">B683 (edp)</h3>
+                </a> -->
+                    
+                    <!-----checkbox----->
+                    <!--<fieldset class="value-item">
+                        <div class="value-item-price">
+                            <input type="radio" name="value-parf" id="b683-30" class="value-item-parf" value="30ml"/>
+                            <label for="b683-30">30ml</label>
+                            <p class="price-parf">5 400 грн</p>
+                        </div>
+                        <div class="value-item-price">
+                            <input type="radio" name="value-parf" id="b683-100" class="value-item-parf" value="100ml"/>
+                            <label for="b683-100">100ml</label>
+                            <p class="price-parf">9 200 грн</p>
+                        </div>
+                        </fieldset>-->
+                        <!-------checkbox------->
+                   <!-- <div class="two-btn">
+                    <button class="shop-btn" type="submit">у кошик</button>
+                </div>
+                </li>
+            </ul>
+        </div>
+           </section>-->
+
+
+           <!--Francesca Bianchi-->
+        <!--<section class="bianchi">
+            <div class="container">
+            <h2 id="Francesca-Bianchi" class="text-list-title" lang="en">Francesca Bianchi</h2>
+            <ul class="list shop-card">
+                <li class="card-overlay1"> 
+                    <a href="#" class="card-overlay">
+                    <div class="wrapper">
+                    <p class="overlay">Це парфум для жінок та чоловіків, належить до групи ароматів Шкіряні.<br/><span>The lover's tale</span> був випущений в 2018 році.<br />Парфумер:<span>Francesca Bianchi</span>.<br /><strong>Верхні ноти:</strong>Мед, Мімоза, Альдегіди і Бергамот;<br/><strong>Ноти серця:</strong>Ірис, Персик, Геліотроп, Єгипетський Жасмин і Болгарська Троянда;<br/><strong>Ноти бази: </strong>Шкіра, Кастореум, Мускус, Лабданум, Дубовий Мох, Сандал і Ветивер.<br/>Початок аромату передає сором'язливий настрій моменту їхньої зустрічі з нотами бергамота, меду та нотками альдегідів. Невловимий запах пилку нагадує ночі ранньої весни, коли цвітуть персикові дерева και поширюють свій аромат у свіжому повітрі. Тоді тяжіння και романтика охоплюють закоханих, а наркотичний жасмин, пом'якшений порошком троянди, що уособлює цю напругу. Нарешті пристрасть бере гору над вишуканою шкірою, що розкривається на тлі інтенсивного амбрового акорду.</p>
+                    <img class="card" src="./img/fbiachi_lovers_tale.jpg" alt="флакон парфумів The lover's tale" width="240"/>
+                    <h3 class="card-name" lang="en">The lover's tale (edp)</h3>
+                
+                </div>
+            </a>
+                <fieldset class="value-item">
+                    <div class="value-item-price">
+                        <input type="radio" name="value-parf" id="tale-30" class="value-item-parf" value="30ml"/>
+                        <label for="tale-30">30ml</label>
+                        <p class="price-parf">5 400 грн</p>
+                    </div>
+                    <div class="value-item-price">
+                        <input type="radio" name="value-parf" id="tale-100" class="value-item-parf" value="100ml"/>
+                        <label for="tale-100">100ml</label>
+                        <p class="price-parf">9 200 грн</p>
+                    </div>
+                    </fieldset>
+                
+                    <div class="two-btn">
+                    <button class="shop-btn" type="submit">у кошик</button>
+                    </div>
+                </li>
+                <li class="card-overlay1">
+                    <a href="#" class="card-overlay">
+                    <div class="wrapper">
+                    <p class="overlay">Це парфум для жінок та чоловіків, належить до групи ароматів Шкіряні.<br/><span>Sex and the sea</span> був випущений в 2018 році.<br/>Парфумер:<span>Francesca Bianchi</span>.<br/><strong>Верхні ноти:</strong>Мед, Мімоза, Альдегіди і Бергамот;<br/><strong>Ноти серця:</strong>Ірис, Персик, Геліотроп, Єгипетський Жасмин і Болгарська Троянда;<br/><strong>Ноти бази: </strong>Шкіра, Кастореум, Мускус, Лабданум, Дубовий Мох, Сандал і Ветивер.<br/>Початок аромату передає сором'язливий настрій моменту їхньої зустрічі з нотами бергамота, меду та нотками альдегідів. Невловимий запах пилку нагадує ночі ранньої весни, коли цвітуть персикові дерева και поширюють свій аромат у свіжому повітрі. Тоді тяжіння και романтика охоплюють закоханих, а наркотичний жасмин, пом'якшений порошком троянди, що уособлює цю напругу. Нарешті пристрасть бере гору над вишуканою шкірою, що розкривається на тлі інтенсивного амбрового акорду.</p>
+                    <img class="card" src="./img/fbiachi_sex_sea.jpg" alt="флакон парфумів Sex and the sea" width="240"/>
+                    <h3 class="card-name" lang="en">Sex and the sea (edp)</h3>
+                
+                </div>
+            </a>
+                <fieldset class="value-item">
+                    <div class="value-item-price">
+                        <input type="radio" name="value-parf" id="sea-30" class="value-item-parf" value="30ml"/>
+                        <label for="sea-30">30ml</label>
+                        <p class="price-parf">5 400 грн</p>
+                    </div>
+                    <div class="value-item-price">
+                        <input type="radio" name="value-parf" id="sea-100" class="value-item-parf" value="100ml"/>
+                        <label for="sea-100">100ml</label>
+                        <p class="price-parf">9 200 грн</p>
+                    </div>
+                    </fieldset>
+                    <div class="two-btn">
+                    <button class="shop-btn" type="submit">у кошик</button>
+                    
+                </div>  
+                </li>
+                <li class="card-overlay1"> 
+                    <a href="#" class="card-overlay">
+                    <div class="wrapper">
+                    <p class="overlay">Це парфум для жінок та чоловіків, належить до групи ароматів Шкіряні.<br/><span>Sticky fingers</span> був випущений в 2018 році.<br/>Парфумер:<span>Francesca Bianchi</span>.<br/><strong>Верхні ноти:</strong>Мед, Мімоза, Альдегіди і Бергамот;<br/><strong>Ноти серця:</strong>Ірис, Персик, Геліотроп, Єгипетський Жасмин і Болгарська Троянда;<br/><strong>Ноти бази: </strong>Шкіра, Кастореум, Мускус, Лабданум, Дубовий Мох, Сандал і Ветивер.<br/>Початок аромату передає сором'язливий настрій моменту їхньої зустрічі з нотами бергамота, меду та нотками альдегідів. Невловимий запах пилку нагадує ночі ранньої весни, коли цвітуть персикові дерева και поширюють свій аромат у свіжому повітрі. Тоді тяжіння και романтика охоплюють закоханих, а наркотичний жасмин, пом'якшений порошком троянди, що уособлює цю напругу. Нарешті пристрасть бере гору над вишуканою шкірою, що розкривається на тлі інтенсивного амбрового акорду.</p>
+                    <img class="card" src="./img/fbiachi_sticky_fingers.jpg" alt="флакон парфумів Sticky fingers" width="240" />
+                    <h3 class="card-name" lang="en">Sticky fingers (edp)</h3>
+                
+                </div>
+            </a>
+                <fieldset class="value-item">
+                    <div class="value-item-price">
+                        <input type="radio" name="value-parf" id="fingers-30" class="value-item-parf" value="30ml"/>
+                        <label for="fingers-30">30ml</label>
+                        <p class="price-parf">5 400 грн</p>
+                    </div>
+                    <div class="value-item-price">
+                        <input type="radio" name="value-parf" id="fingers-100" class="value-item-parf" value="100ml"/>
+                        <label for="fingers-100">100ml</label>
+                        <p class="price-parf">9 200 грн</p>
+                    </div>
+                    </fieldset>
+                    <div class="two-btn"> 
+                    <button class="shop-btn" type="submit">у кошик</button>
+                    
+                </div>
+                </li>
+                <li class="card-overlay1">
+                    <a href="#" class="card-overlay">
+                    <div class="wrapper">
+                    <p class="overlay">Це парфум для жінок та чоловіків, належить до групи ароматів Шкіряні.<br/><span>The dark side</span> був випущений в 2018 році.<br/>Парфумер:<span>Francesca Bianchi</span>.<br/><strong>Верхні ноти:</strong>Мед, Мімоза, Альдегіди і Бергамот;<br/><strong>Ноти серця:</strong>Ірис, Персик, Геліотроп, Єгипетський Жасмин і Болгарська Троянда;<br/><strong>Ноти бази: </strong>Шкіра, Кастореум, Мускус, Лабданум, Дубовий Мох, Сандал і Ветивер.<br/>Початок аромату передає сором'язливий настрій моменту їхньої зустрічі з нотами бергамота, меду та нотками альдегідів. Невловимий запах пилку нагадує ночі ранньої весни, коли цвітуть персикові дерева και поширюють свій аромат у свіжому повітрі. Тоді тяжіння και романтика охоплюють закоханих, а наркотичний жасмин, пом'якшений порошком троянди, що уособлює цю напругу. Нарешті пристрасть бере гору над вишуканою шкірою, що розкривається на тлі інтенсивного амбрового акорду.</p>
+                    <img class="card" src="./img/fbiachi_the_dark_side.jpg" alt="флакон парфумів The dark side" width="240"/>
+                    <h3 class="card-name" lang="en">The dark side (edp)</h3>
+                
+                    </div>
+                </a>
+                    <fieldset class="value-item">
+                        <div class="value-item-price">
+                            <input type="radio" name="value-parf" id="side-30" class="value-item-parf" value="30ml"/>
+                            <label for="side-30">30ml</label>
+                            <p class="price-parf">5 400 грн</p>
+                        </div>
+                        <div class="value-item-price">
+                            <input type="radio" name="value-parf" id="side-100" class="value-item-parf" value="100ml"/>
+                            <label for="side-100">100ml</label>
+                            <p class="price-parf">9 200 грн</p>
+                        </div>
+                        </fieldset>
+                    <div class="two-btn">
+                    <button class="shop-btn" type="submit">у кошик</button>
+                    
+                </div>
+                </li>
+                <li class="card-overlay1">
+                    <a href="#" class="card-overlay">
+                    <div class="wrapper">
+                    <p class="overlay">Це парфум для жінок та чоловіків, належить до групи ароматів Шкіряні.<br/><span>The dark side</span> був випущений в 2018 році.<br/>Парфумер:<span>Francesca Bianchi</span>.<br/><strong>Верхні ноти:</strong>Мед, Мімоза, Альдегіди і Бергамот;<br/><strong>Ноти серця:</strong>Ірис, Персик, Геліотроп, Єгипетський Жасмин і Болгарська Троянда;<br/><strong>Ноти бази: </strong>Шкіра, Кастореум, Мускус, Лабданум, Дубовий Мох, Сандал і Ветивер.<br/>Початок аромату передає сором'язливий настрій моменту їхньої зустрічі з нотами бергамота, меду та нотками альдегідів. Невловимий запах пилку нагадує ночі ранньої весни, коли цвітуть персикові дерева και поширюють свій аромат у свіжому повітрі. Тоді тяжіння και романтика охоплюють закоханих, а наркотичний жасмин, пом'якшений порошком троянди, що уособлює цю напругу. Нарешті пристрасть бере гору над вишуканою шкірою, що розкривається на тлі інтенсивного амбрового акорду.</p>
+                    <img class="card" src="./img/fbiachi_tyger.jpg" alt="флакон парфумів Tyger Tyger" width="240"/>
+                    <h3 class="card-name" lang="en">Tyger Tyger (edp)</h3>
+                 
+                    </div>
+                </a>
+                    <fieldset class="value-item">
+                        <div class="value-item-price">
+                            <input type="radio" name="value-parf" id="tyger-30" class="value-item-parf" value="30ml"/>
+                            <label for="tyger-30">30ml</label>
+                            <p class="price-parf">5 400 грн</p>
+                        </div>
+                        <div class="value-item-price">
+                            <input type="radio" name="value-parf" id="tyger-100" class="value-item-parf" value="100ml"/>
+                            <label for="tyger-100">100ml</label>
+                            <p class="price-parf">9 200 грн</p>
+                        </div>
+                        </fieldset>
+                    <div class="two-btn">
+                    <button class="shop-btn" type="submit">у кошик</button>
+                    
+                    </div>
+                    </li>
+                 <li class="card-overlay1">
+                    <a href="#" class="card-overlay">
+                    <div class="wrapper">
+                    <p class="overlay">Це парфум для жінок та чоловіків, належить до групи ароматів Шкіряні.<br/><span>The dark side</span> був випущений в 2018 році.<br/>Парфумер:<span>Francesca Bianchi</span>.<br/><strong>Верхні ноти:</strong>Мед, Мімоза, Альдегіди і Бергамот;<br/><strong>Ноти серця:</strong>Ірис, Персик, Геліотроп, Єгипетський Жасмин і Болгарська Троянда;<br/><strong>Ноти бази:</strong>Шкіра, Кастореум, Мускус, Лабданум, Дубовий Мох, Сандал і Ветивер.<br/>Початок аромату передає сором'язливий настрій моменту їхньої зустрічі з нотами бергамота, меду та нотками альдегідів. Невловимий запах пилку нагадує ночі ранньої весни, коли цвітуть персикові дерева και поширюють свій аромат у свіжому повітрі. Тоді тяжіння και романтика охоплюють закоханих, а наркотичний жасмин, пом'якшений порошком троянди, що уособлює цю напругу. Нарешті пристрасть бере гору над вишуканою шкірою, що розкривається на тлі інтенсивного амбрового акорду.</p>
+                   <img class="card" src="./img/fbiachi_unspoken_musk.jpg" alt="флакон парфумів Unspoken musk" width="240"/>
+                   <h3 class="card-name" lang="en">Unspoken musk (edp)</h3>
+                 
+                    </div>
+                </a>
+                    <fieldset class="value-item">
+                        <div class="value-item-price">
+                            <input type="radio" name="value-parf" id="unspoken-30" class="value-item-parf" value="30ml"/>
+                            <label for="unspoken-30">30ml</label>
+                            <p class="price-parf">5 400 грн</p>
+                        </div>
+                        <div class="value-item-price">
+                            <input type="radio" name="value-parf" id="unspoken-100" class="value-item-parf" value="100ml"/>
+                            <label for="unspoken-100">100ml</label>
+                            <p class="price-parf">9 200 грн</p>
+                        </div>
+                        </fieldset>
+                   <div class="two-btn">
+                   <button class="shop-btn" type="submit">у кошик</button>
+                    
+                </div>
+                </li>
+            </ul>
+        </div>
+           </section>
+              </section>-->
+    </main>
+    <footer>
+         <!-- CONTACT -->
+         <!--<section id="Контакти" class="contact">
+            <div class="container contact-block contact-board">
+             <div>
+            <h3 class="text-list">Контакти</h3>
+            <address>
+                <ul class="list">
+                    <li class="adress-block">
+                        <a class="menu-link" href="https://maps.app.goo.gl/3XH1kPbj957jWoN99" 
+                        target="_blank" 
+                        rel="noopener noreferrer">пр-кт Яворницького, 46 Дніпро</a>
+                    </li>
+                    <li class="adress-block">
+                        <a class="menu-link" href="tel:+380639772440">+38 063 977 24 40</a>
+                    </li>
+                    <li class="adress-block">
+                        <a class="menu-link" href="mailto:aromabutik@gmail.com">aromabutik@gmail.com</a>
+                    </li>
+                </ul>
+            </address>
+            </div>
+            <div>
+         <h3 class="text-list" >Ми в мережах:</h3>
+            <ul class="list social-sign">
+                <li>
+                    <a href="#" class="sign">
+                    <svg class="facebook" width="30px" height="30px">
+                    <use href="./icon/sprite.svg#icon-instagram"></use>
+                    </svg>
+                        </a>
+            </li> 
+            <li>
+            <a href="#" class="sign">
+            <svg class="facebook" width="30px" height="30px">
+            <use href="./icon/sprite.svg#icon-facebook"></use>
+            </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="sign">
+                 <svg class="youtube" width="30px" height="30px">
+                    <use href="./icon/sprite.svg#icon-youtube"></use>
+                    </svg>
+                </a>
+            </li> </ul>
+            </div>
+            <div>
+                <h3 class="text-list">Гафік роботи</h3>
+                <p class="menu-link">Пн-Нд з 10:00 до 19:00</p>
+                </div>
+            </div> 
+        </section>-->
+         </footer>
+    <!--<div class="back-drop is-hidden" data-modal>
+        <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+            <svg class="mcb" width="24px" height="30px">
+                <use href="./icon/Close_icon-icons.com_71857.svg#Layer_1">
+                </use>
+            </svg>
+       </button>
+       
+    <form class="modal-form">
+       <p class="text-form">У вас є можливість <br/>зробити онлайн запис до парфумерного стилісту</p>
+        <label class="modal-form-field">
+          <span class="modal-form-input-desc">Ім'я*</span>
+          <span class="modal-form-input-wrapper">
+          <input type="text" name="user_name" class="modal-form-input" required pattern="^[a-zA-Aа-яА-ЯіІїЇ]+$" minlength="2"/>
+          <svg class="modal-form-input-icon" width="18px" height="18px">
+            <use href="./icon/sprite.svg#icon-user">
+            </use>
+         </svg>   
+        </span>
+       </label> 
+       <label class="modal-form-field">
+          <span class="modal-form-input-desc">Телефон*</span>
+          <span class="modal-form-input-wrapper">
+          <input type="tel" name="user_phone" class="modal-form-input" pattern="^\+380[0-9]{9}$" title="+380xxxxxxxxxx" required/>
+          <svg class="modal-form-input-icon" width="18px" height="18px">
+            <use href="./icon/sprite.svg#icon-phone">
+            </use>
+         </svg>
+        </span>   
+       </label> 
+       <label class="modal-form-field">
+          <span class="modal-form-input-desc">e-mail</span>
+          <span class="modal-form-input-wrapper">
+          <input type="text" class="modal-form-input"/>
+          <svg class="modal-form-input-icon" width="18px" height="18px">
+            <use href="./icon/sprite.svg#icon-mail">
+            </use>
+         </svg>  
+        </span>
+       </label> 
+       <label class="modal-form-field">
+          <span class="modal-form-input-desc">Опишіть ваші парфумерні смаки</span>
+          <textarea name="user_message" class="modal-form-message" placeholder="введіть текст"></textarea>
+        </label>
+           <input id="user-policy" type="checkbox" name="user-policy" class="modal-form-check visually-hidden">
+           <label for="user-policy" class="modal-form-check-desc">Надсилати повідомлення про нові надходження</label> 
+      <button type="submit" class="model-form-submit">надіслати</button>
+    </form>
+     </div>
+    </div>-->
+    <!--script open/close window-->
+    <script src="./js/mobile-menu.js"></script>
+    <!--<script src="./js/modal.js"></script>-->
+
+</body>
+</html>

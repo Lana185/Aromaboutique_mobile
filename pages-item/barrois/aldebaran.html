@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title lang="en">Aldeberan</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet">
+       <link rel="stylesheet" href="./css_barrois/barrois.css"/>
+</head>
+<body>
+    <!--Top panel-->
+    <header>
+        <div class="top-panel container">
+            <div class="panel">
+            <div class="info">  
+            <h1 class="name" lang="en">Aromaboutique</h1>
+        <a href="#" class="sign">
+        <svg class="paragraph" width="30px" height="30px">
+        <use href="../sprite_items.svg#icon-paragraph-justify"></use>
+        </svg> 
+                     </a>
+            <ul class="info-left">
+            <li>
+                <a class="tel" href="tel:+380639772440">+38 063 977 24 40
+            </a>
+            </li>
+            <li>
+                <a href="#" class="sign1">
+                <svg class="facebook" width="30px" height="30px">
+                <use href="../sprite_items.svg#icon-cart"></use>
+                </svg> </a>
+            </li>
+            </ul>
+        </div>
+        </div>
+        </div>
+      
+    </header>
+        <!--HERO-->
+    <main>
+        <section class="hero">
+        <div class="container">
+          <div class="left-side">
+           <div class="position-img">
+              
+                <img id="selectedImage" src="#" alt="Выбранное изображение" style="max-width: 300px; display: none;" class="selectd-img">
+                <div class="id=imageSelector imgsmall">
+                    <img src="../img_item/aldebaran.jpg" alt="флакон" width="30" class="imageoption"/>
+                    <img src="../img_item/aldebaran_box.jpg" alt="флакон" width="30" class="imageoption"/>
+                </div>
+                <script>
+                    function changeImage(imageoption) {
+                    const images = document.querySelectorAll('.imageoption');
+                    const selectedImage = document.getElementById('selectedImage');
+                     images.forEach(img => {
+                      img.addEventListener('click', () => {
+                        images.forEach(i => i.classList.remove('selected'));
+                        img.classList.add('selected');
+                        selectedImage.src = img.src;
+                        selectedImage.style.display = 'block';
+                      });
+                    });
+                }
+                    window.onload = function() {
+                    const firstimageoption = document.querySelector(".imageoption");
+      if (firstimageoption) {
+        changeImage(firstimageoption);
+      }
+    };
+                    
+                  </script>
+                  </div>
+                </div>
+<!------------right side----------->
+          <div class="right-side">
+           
+            <div class="description-text">
+                <h1 class="title" lang="en">Aldebaran</h1>
+                <p class="text">АЛЬДЕБАРАН — це зірка, одна з найяскравіших на небі.
+                    Це друга зірка в квітковій констеляції, вигадана дизайнером Марком-Антуаном Барруа та майстром-парфумером Квентином Бішем.
+                    Одночасно захисна та горда, дива білих квітів розповсюджує свій потужний ароматний ореол. Простота, що надає композиції осліплюючу сучасність.</p>
+                <h3 class="title1">Піраміда композиції</h3>
+                <ul class="piramid">
+                    <li class="top-note">Верхні ноти: Тубероза;</li>
+                    <li class="heart-note">Ноти серця: Паприка і Мате;</li>
+                    <li class="base-note">Ноти бази: Боби Тонка.</li>
+                </ul>
+            </div>
+            <!--checkbox-->
+            <fieldset class="value-item">
+                <div class="value-item-price">
+                    <input type="radio" name="value-parf" id="tilia-30" class="value-item-parf" value="30ml"/>
+                    <label for="tilia-30">30ml</label>
+                    <p class="price-parf">5 400 грн</p>
+                </div>
+                <div class="value-item-price">
+                    <input type="radio" name="value-parf" id="tilia-100" class="value-item-parf" value="100ml"/>
+                    <label for="tilia-100">100ml</label>
+                    <p class="price-parf">9 200 грн</p>
+                </div>
+                </fieldset>
+                <!---->
+                <div class="mail-btn">
+                    <button class="shop-btn" type="submit">у кошик</button>
+                </div>
+<!-------------descriptions---------------->
+
+          </div>
+
+        </div>
+
+    </section>
+    </main>
+    <footer>
+        <section class="contact">
+            <div class="container contact-block contact-board">
+             <div>
+            <h3 class="text-list">Контакти</h3>
+            <address>
+                <ul class="list">
+                    <li class="adress-block">
+                        <a class="menu-link" href="https://maps.app.goo.gl/3XH1kPbj957jWoN99" 
+                        target="_blank" 
+                        rel="noopener noreferrer">пр-кт Яворницького, 46 Дніпро</a>
+                    </li>
+                    <li class="adress-block">
+                        <a class="menu-link" href="tel:+380639772440">+38 063 977 24 40</a>
+                    </li>
+                    <li class="adress-block">
+                        <a class="menu-link" href="mailto:aromabutik@gmail.com">aromabutik@gmail.com</a>
+                    </li>
+                </ul>
+            </address>
+            </div>
+            <div>
+         <h3 class="text-list" >Ми в мережах:</h3>
+            <ul class="list social-sign">
+                <li>
+                    <a href="#" class="sign2">
+                        <svg class="facebook" width="30px" height="30px">
+                            <use href="../sprite_items.svg#icon-facebook1"></use>
+                            </svg> 
+                        </a>
+            </li> 
+            <li>
+            <a href="#" class="sign2">
+            <svg class="insta" width="30px" height="30px">
+            <use href="../sprite_items.svg#icon-instagram"></use>
+            </svg>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="sign2">
+                 <svg class="youtube" width="30px" height="30px">
+                    <use href="../sprite_items.svg#icon-youtube"></use>
+                    </svg>
+                </a>
+            </li> </ul>
+            </div>
+            <div>
+                <h3 class="text-list">Гафік роботи</h3>
+                <p class="menu-link">Пн-Нд з 10:00 до 19:00</p>
+                </div>
+            </div> 
+        </section>
+        
+
+       
+    </footer>
+
+    
+</body>
+</html>

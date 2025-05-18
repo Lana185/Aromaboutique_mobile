@@ -1,0 +1,108 @@
+@media screen and (max-width: 767px) {
+  .social-item-link {
+    display: none;
+  }
+  .hero-left-side {
+    display: none;
+  }
+}
+.hero-right-side {
+  padding-top: 148px;
+  padding-bottom: 136px;
+  padding-left: 100px;
+  height: 480px;
+  flex-grow: 1;
+  background: #ad827e;
+  background-image: linear-gradient(rgba(226, 220, 220, 0.1), rgba(130, 88, 63, 0.7)), url(/hero_img/bg3_mobile.jpg);
+  background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .social-item-link {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+  .hero-right-side {
+    width: 1100px;
+    padding-top: 272px;
+    padding-bottom: 206px;
+    padding-left: 100px;
+    height: 720px;
+    flex-grow: 1;
+    background: #ad827e;
+    background-image: linear-gradient(rgba(226, 220, 220, 0.1), rgba(130, 88, 63, 0.7)), url(/hero_img/bg3_1x.jpg);
+    background-size: cover;
+  }
+  .hero-left-side {
+    display: none;
+  }
+  .hero-container {
+    width: 767px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  left-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .social {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    padding-top: 200px;
+    /* padding-bottom: 100px;*/
+  }
+  .social-item-link {
+    display: block;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #582930;
+  }
+  .insta {
+    padding-bottom: 50px;
+  }
+  .tik {
+    padding-top: 50px;
+  }
+  .social-item-link::before {
+    display: block;
+    width: 1px;
+    height: 40px;
+    background-color: #582930;
+    content: "";
+    margin-bottom: 120px;
+    margin-left: -9px;
+  }
+  .social-item-link:hover,
+  .social-item-link:focus {
+    color: var(--main-color);
+  }
+  .left-right {
+    display: flex;
+  }
+  .hero-left-side {
+    display: flex;
+    padding-left: 15px;
+    width: 100px;
+  }
+  .hero-right-side {
+    width: 1100px;
+    padding-top: 272px;
+    padding-bottom: 206px;
+    padding-left: 100px;
+    height: 720px;
+    flex-grow: 1;
+    background: #ad827e;
+    background-image: linear-gradient(rgba(226, 220, 220, 0.1), rgba(130, 88, 63, 0.7)), url(/hero_img/bg3.jpeg);
+    background-size: cover;
+  }
+}/*# sourceMappingURL=hero.css.map */
