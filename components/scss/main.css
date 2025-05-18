@@ -95,24 +95,6 @@ input {
   fill: white;
 }
 
-@media screen and (max-width: 1199px) {
-  .tel {
-    display: none;
-  }
-}
-@media screen and (max-width: 767px) {
-  .menu {
-    display: none;
-  }
-  .page-header-modal-btn {
-    display: none;
-  }
-}
-@media screen and (max-width: 480px) {
-  .logo-imge {
-    width: 10px;
-  }
-}
 .page-header-container {
   display: flex;
   align-items: center;
@@ -121,11 +103,6 @@ input {
 .page-header {
   padding-top: 40px;
   padding-bottom: 40px;
-}
-
-.shop-btn-main {
-  display: flex;
-  padding-left: 0;
 }
 
 .mobile-menu-open {
@@ -138,11 +115,6 @@ input {
   line-height: 0;
 }
 
-@media screen and (min-width: 767px) {
-  .mobile-menu-open {
-    display: none;
-  }
-}
 .page-nav {
   display: flex;
   align-items: center;
@@ -172,10 +144,6 @@ menu-item:not(:last-child) {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--main-color);
-}
-
-.shop-btn-main {
-  margin-left: auto;
 }
 
 .modal-btn {
@@ -222,10 +190,8 @@ menu-item:not(:last-child) {
   .menu-item:not(:last-child) {
     margin-right: 40px;
   }
-  .shop-btn-main {
-    padding-left: 0;
-  }
   .info-btn {
+    padding-left: 20px;
     display: flex;
     justify-content: center;
   }
@@ -237,6 +203,9 @@ menu-item:not(:last-child) {
   .tel:hover,
   .tel:focus {
     color: rosybrown;
+  }
+  .shop-btn-main {
+    margin-left: 80px;
   }
 }
 /*=============ABOUT============
@@ -882,7 +851,7 @@ padding-top: 80px; /*отступы м/ж секциями*/
   }
 }
 .shop-btn-main {
-  fill: red;
+  fill: white;
 }
 
 @media screen and (min-width: 767px) {
@@ -1134,6 +1103,8 @@ padding-top: 80px; /*отступы м/ж секциями*/
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: -20px;
+    margin-left: -10px;
   }
   .suptitle::before {
     display: block;
@@ -1147,12 +1118,13 @@ padding-top: 80px; /*отступы м/ж секциями*/
   .suptitle1 {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 1.36;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-top: 20px;
+    margin-left: -40px;
   }
   .main-title {
     font-family: "Raleway", sans-serif;
@@ -1162,5 +1134,48 @@ padding-top: 80px; /*отступы м/ж секциями*/
     letter-spacing: 0.05em;
     color: #FFFFFF;
     /*text-shadow: 10px 0 10px #553b44;*/
+  }
+}
+@media screen and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+  .page-header-modal-btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo-imge {
+    width: 10px;
+  }
+}
+@media screen and (min-width: 360px) {
+  .mobile-menu-open {
+    fill: white;
+  }
+  .mobile-menu-open {
+    /* margin-left: 180px;
+     margin-right: 20px;*/
+    margin-left: auto;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .tel {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+  .shop-btn-main {
+    margin-left: 70px;
+    margin-right: 20px;
+  }
+  .page-header-modal-btn {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .mobile-menu-open {
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */

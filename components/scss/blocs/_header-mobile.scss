@@ -1,0 +1,26 @@
+@media screen and (max-width: 767px) {   
+    .menu {
+       display: none;
+    }
+    .page-header-modal-btn {
+        display: none;
+     }
+    }
+
+    @media screen and (max-width: 480px) {         
+        .logo-imge {
+           width: 10px;
+          }
+        }
+
+ @media screen and (min-width: 360px) {         
+            .mobile-menu-open {
+               fill: white;
+              }
+              .mobile-menu-open {
+               /* margin-left: 180px;
+                margin-right: 20px;*/
+                margin-left: auto;
+                margin-right: 20px;
+            }
+        }

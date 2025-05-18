@@ -44,6 +44,8 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: -20px;
+    margin-left: -10px;
  }
    .suptitle::before {
     display: block;
@@ -57,12 +59,13 @@
    .suptitle1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 1.36;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-top: 20px;
+    margin-left: -40px;
  }
  .main-title {
     font-family: 'Raleway', sans-serif;

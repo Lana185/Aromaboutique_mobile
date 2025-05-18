@@ -83,27 +83,6 @@
  .shop-btn-main {
     fill: white;
  }
-   @media screen and (max-width: 1199px) {         
- .tel {
-    display: none;
- }
-
-   }    
-    @media screen and (max-width: 767px) {   
- .menu {
-    display: none;
- }
-
- .page-header-modal-btn {
-    display: none;
- }
-}
-
-@media screen and (max-width: 480px) {         
-    .logo-imge {
-       width: 10px;
-      }
-    }
 .page-header-container {
     display: flex;
     align-items: center;
@@ -113,28 +92,17 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.shop-btn-main {
-    display: flex;
-    padding-left: 0;
-    
-    
-}
+
 
 .mobile-menu-open {
     display: flex;
-  
-   
 }
 .mobile-btn {
     background-color: transparent;
     border: none;
     line-height: 0;
 }
-@media screen and (min-width: 767px) {
-    .mobile-menu-open {
-        display: none;
-    }
-}
+
     .page-nav {
         display: flex;
         align-items: center;
@@ -161,9 +129,7 @@
      .menu-link:focus {
         color: var(--main-color);
     }
-    .shop-btn-main {
-        margin-left: auto;
-    }
+   
     .modal-btn {
         margin-right: 30px;
         padding-left: 5px;
@@ -213,13 +179,13 @@
         margin-right: 40px;
 }
 
-    .shop-btn-main {
-        padding-left: 0;
-    }
+   
  .info-btn{
+    padding-left: 20px;
     display: flex;
     justify-content: center;
  }
+
     .tel {
    margin-left: 100px;
     color: white;
@@ -229,7 +195,12 @@
  .tel:hover,
  .tel:focus {
     color: rosybrown;
- }}
+ }
+ .shop-btn-main {
+    margin-left: 80px;
+   
+       }
+}
  
  /*=============ABOUT============
  .about-section {

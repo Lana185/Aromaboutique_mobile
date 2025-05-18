@@ -1,0 +1,22 @@
+@media screen and (max-width: 1199px) {         
+    .tel {
+       display: none;
+      
+    }
+      }    
+     
+@media screen and (min-width: 481px) and (max-width: 1199px) {         
+    .shop-btn-main {
+   margin-left: 70px;
+   margin-right: 20px;
+      }
+      .page-header-modal-btn {
+        font-size: 10px;
+      }
+ }
+ @media screen and (min-width: 767px) {
+    .mobile-menu-open {
+        display: none;
+     
+    }
+}  
