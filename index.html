@@ -103,6 +103,7 @@
     <!-- HERO -->
     <main>
         <section class="hero hero-container">
+         
             <div class="container left-right">
             <div class="hero-left-side social-box">
                 <ul class="list social">
@@ -114,37 +115,55 @@
                     </Li>
                 </ul>
             </div>
+            <div class="hero-mobile">
             <div class="hero-right-side">
-                <p class="suptitle">обери парфуми, які розкриють твої почуття!</p>
+                <p class="suptitle"> обери парфуми, які розкриють твої почуття!</p>
                 <h1 class="main-title" lang="en">AromaBoutique</h1>
-                <p class="suptitle1">Ми раді вам представити нішеві та люксові парфумерні бренди з різних країн світу, <br> а також пишаємося, тим, що можемо вас познайомити з українською авторською парфумерією</p>
+                <p class="suptitle1">Ми раді вам представити нішеві та люксові парфумерні бренди з різних країн світу, а також пишаємося, тим, що можемо вас познайомити з українською авторською парфумерією</p>
             </div>
+        </div>
         </div>
         </section>
         <!--ABOUT-->
-       <!-- <section class="about-section">
+       <section class="about-section">
             <div class="container">  
            <h2 id="Пронас" class="suptitle2">Ми інтернет-магазин нішевої та люксової парфумерії "AROMABOUTIQUE". <br>Ми гарантуємо Вам, що продаємо тільки оригінальну продукцію.
             </h2>
-            <div class="galery-about"> 
-            <img src="./img/parfshelf.jpeg" alt="лавка з парфумами у парфумерноу магазині" width="286"/>
-            <img class="long-picture" src="/img/parfshop.jpeg" alt="інттер'єр парфумерного магазину" width="500"/>
-            <img src="./img/flacon.jpeg" alt="флакон парфумів на туалетному столику" width="286"/>
-            </div>
+            <div class="galery-about">
+                <picture>
+                    <source srcset="./img/parfshelf.jpeg 1x, ./img/parfshelf.jpeg 2x," media="(min-width: 480px)" />
+                    <source srcset="./img/parfshelf.jpeg 1x, ./img/parfshelf.jpeg 2x" media="(min-width: 768px)" />
+                    <source srcset="./img/parfshelf.jpeg 1x, ./img/parfshelf.jpeg 2x" media="(min-width: 1200px)" /> 
+                    <img src="./img/parfshelf.jpeg" alt="полки з парфумами у парфумерноу магазині" width="360" class="img-galery"/> 
+            </picture> 
+                    
+            <picture>
+                <source srcset=".//img/parfshop_1x.jpg 1x, .//img/parfshop_1x.jpg 2x," width="360" media="(min-width: 480px)" />
+                <source srcset="./img/parfshop.jpeg 1x, ./img/parfshop.jpeg 2x" width="360" media="(min-width: 768px)" />
+                <source srcset="./img/parfshop.jpeg 1x, ./img/parfshop.jpeg 2x" width="360" media="(min-width: 1200px)" /> 
+                <img class="long-picture" src="./img/parfshop.jpeg" alt="інттер'єр парфумерного магазину" width="360" class="img-galery"/>
+            </picture> 
+            <picture>
+                <source srcset="./img/flacon.jpeg, ../img/flacon.jpeg 2x," media="(min-width: 480px)" />
+                <source srcset="./img/flacon.jpeg, ../img/flacon.jpeg 2x" media="(min-width: 768px)" />
+                <source srcset="./img/flacon.jpeg, ../img/flacon.jpeg 2x" media="(min-width: 1200px)" /> 
+            <img src="./img/flacon.jpeg" alt="флакон парфумів на туалетному столику" width="360" class="img-galery"/>
+            </picture> 
+        </div>
           <div>
             <p class="text-component">Парфум — це те, що кожна людина повинна спробувати та носити у своєму повсякденному житті. Чудові парфуми можуть зіграти важливу роль, щоб змінити ваш настрій, змусити вас почуватись краще, допомогти витримати навантаження чи створити певне враження та покращити ваш настрій. Наша мета полягає в тому, щоб допомогти вам проявити та реалізували себе, обрав аромат, незважаючи на штами та шаблони, що нав'язані ззовні. Ми хочемо, щоб ви були вільними у своєму виборі, були справжні та духмяно щасливі :)</p>
         </div>
         </div>
-        </section>-->
+        </section>
         <!-- BRAND LIST -->
-        <!--<section id="Бренди" class="brand-section">
+            <section id="Бренди" class="brand-section">
             <div class="container">
                 <div class="background-brand-list">
                 <p class="info-text">Ознайомся з переліком брендів парфумерії:</p>
             <div class="brand-list">
             <div class="box">
-                <h2 class="text-list text-box">Нішева парфумерія</h2>
-           <ul class="list text-list-item text-box">
+                <h2 class="text-list text-box text-box1 tb2">Нішева парфумерія</h2>
+           <ul class="list text-list-item1 text-box">
                 <li> <a class="brand-item text-list-item" href="#Marc-Antoine-Barrois" lang="en">Marc-Antoine Barrois</a></li>
                 <li> <a class="brand-item text-list-item" href="#Francesca-Bianchi" lang="en">Francesca Bianchi</a></li>
                 <li> <a class="brand-item text-list-item" href="" lang="en">Zoologist Perfumes</a></li>
@@ -156,8 +175,8 @@
             </ul>
             </div>
             <div class="box">
-            <h2 class="text-list text-box">Люксова парфумерія</h2>
-            <ul class="list text-list-item text-box">
+            <h2 class="text-list text-list2 text-box">Люксова парфумерія</h2>
+            <ul class="list text-list-item text-box text-list-item2">
                 <li> <a class="brand-item text-list-item" href="" lang="en">Chanel</a></li>
                 <li> <a class="brand-item text-list-item" href="" lang="fr">Hermès</a></li>
                 <li> <a class="brand-item text-list-item" href="" lang="en">Comme des Garcons</a></li>
@@ -171,7 +190,7 @@
     </div>
 </div>
             </div>
-     </section>-->
+     </section>
      <!-- SHOP PAGE1 -->
     <!--<section id="Магазин">-->
         <!--Marc Antoine Barrois-->

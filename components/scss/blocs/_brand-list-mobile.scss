@@ -1,0 +1,76 @@
+@media screen and (max-width: 767px) {
+    .brand-section {
+        padding-top: 30px; /*отступы м/ж секциями*/
+        padding-bottom: 30px;
+    }
+    .container {
+        width: 480px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .background-brand-list{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        flex-grow: 1;
+        background: #ad827e;
+        background-image: linear-gradient(rgba(185, 141, 141, 0.5), rgb(130, 88, 63, 0.2)), url(/hero_img/bg6_mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /*========background-origin: border-box;*/
+    
+      }
+      .info-text {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+      }
+      .text-list {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .text-list::after {
+        margin-left: 70px;
+      }
+      .text-box1 {
+        margin-left: 50px;
+        display: block;
+        justify-content: center;
+        width: 360px;
+        height: 480px;
+        border: 0px solid #582930;
+        background-image: linear-gradient(rgba(34, 8, 8, 0.7), rgb(130, 88, 63, 0.2));
+        top: 10px;
+        right: 0px;
+        }
+        .text-list-item1 {
+            text-align: center;
+            margin-top: -440px;
+        }
+        .text-list2 {
+            margin-top: 50px;
+        }
+        .text-list2::after {
+            display: block;
+            width: 220px;
+            height: 1px;
+            background-color: #fefefe;
+            content: '';
+            margin-bottom: 5px;
+            margin-right: 5px;
+            margin-left: 120px;
+}
+    .text-list-item2 {
+    text-align: center;
+    margin-top: -10px;
+}
+.tb2 {
+    padding-top: 20px;
+}
+}

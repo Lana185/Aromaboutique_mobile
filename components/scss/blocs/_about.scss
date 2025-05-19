@@ -1,0 +1,48 @@
+ /*=============ABOUT============*/
+ @media screen and (min-width: 1200px) {
+.about-section {
+    padding-top: 130px; /*отступы м/ж секциями*/
+    padding-bottom: 130px;
+    /*======background-color: #edd9ca;
+    border: #ad827e solid 2px;=======*/
+}
+ }
+ .galery-about {
+    display: flex; 
+    flex-wrap: wrap;    
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; 
+   }
+
+   .suptitle2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #582930;
+    margin-top: 20px;
+    margin-bottom: 40px;
+   }
+
+ .text-component {
+    text-indent: 30px; 
+    text-align: justify;
+   
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.36;
+    letter-spacing: 0.1em; 
+    text-align: justify; 
+    color: #582930;
+    margin-top: 30px; 
+    margin-left: 40px;
+}
+.galery-about {
+   padding-left: 50px;
+
+}

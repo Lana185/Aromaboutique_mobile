@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .container {
+        width: 800px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .suptitle2 {
+        margin-left: 20px;
+        font-size: 12px;
+
+    }
+    .galery-about {
+      
+     }
+    .img-galery {
+        margin-left: 48px;
+        padding-bottom: 20px;
+        width: 560px;
+    }
+    .long-picture {
+        margin-left: 48px;
+        padding-bottom: 20px;
+        width: 560px;
+    }
+    .text-component {
+      padding-left: 0px;
+      margin-right: 60px;
+    }
+    .about-section {
+    padding-top: 60px; /*отступы м/ж секциями*/
+    padding-bottom: 30px;
+}
+}

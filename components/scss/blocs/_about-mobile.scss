@@ -1,0 +1,25 @@
+@media screen and (max-width: 767px) {
+    .about-section {
+        padding-top: 60px; /*отступы м/ж секциями*/
+        padding-bottom: 30px;
+    }
+    .container {
+        width: 480px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .suptitle2 {
+        font-size: 10px;
+
+    }
+    .galery-about {
+        padding-left: 60px;
+        padding-right: 60px;
+  }
+ 
+    .text-component {
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+   
+}

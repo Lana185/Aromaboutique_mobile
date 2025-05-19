@@ -1,4 +1,5 @@
-@media screen and (max-width: 767px) {   
+
+/*@media screen and (max-width: 767px) {   
     .menu {
        display: none;
     }
@@ -18,9 +19,28 @@
                fill: white;
               }
               .mobile-menu-open {
-               /* margin-left: 180px;
-                margin-right: 20px;*/
+           
                 margin-left: auto;
                 margin-right: 20px;
+            }
+        }*/
+
+        @media screen and (max-width: 767px) {
+            .page-header {
+                width: 448px;
+            }
+            .menu {
+                display: none;
+            }
+            .tel {
+                display: none;
+            }
+          
+            .page-header-modal-btn {
+                display: none;
+            }
+            .logo {
+                width: 70px;
+                height: 70px;
             }
         }

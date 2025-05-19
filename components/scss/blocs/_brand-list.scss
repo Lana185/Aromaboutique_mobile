@@ -1,0 +1,96 @@
+.brand-section {
+    display: flex;
+    align-items: center; 
+    align-items: center;
+    padding-bottom: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    background-origin: border-box;
+}
+   .background-brand-list{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-grow: 1;
+    background: #ad827e;
+    background-image: linear-gradient(rgba(185, 141, 141, 0.5), rgb(130, 88, 63, 0.2)), url(/hero_img/bg6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*========background-origin: border-box;*/
+
+  }
+  @media screen and (min-width: 1200px) {
+  .box {
+    display: block;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border: 0px solid #582930;
+    background-image: linear-gradient(rgba(34, 8, 8, 0.7), rgb(130, 88, 63, 0.2));
+    top: -140px;
+    right: 648px;
+    }
+
+
+    .text-box{
+        text-align: auto;
+        margin-left: 150px;
+        margin-top: 50px;
+       }
+
+  .brand-list{
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .brand-item:hover{
+    color: #582930;
+    background-color: #dba0aa;
+  }  
+
+  .info-text{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+}
+ .text-list {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    
+ }
+ .text-list::after {
+    display: block;
+    width: 220px;
+    height: 1px;
+    background-color: #fefefe;
+    content: '';
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: -5px;
+ }
+
+ .text-list-item {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: #FFFFFF;
+    transition: color 250ms linear;
+ }
