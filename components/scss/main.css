@@ -1137,6 +1137,9 @@ menu-item:not(:last-child) {
   .text-list::after {
     margin-left: 70px;
   }
+  .text-box3 {
+    padding-top: 20px;
+  }
   .text-box1 {
     margin-left: 50px;
     display: block;
@@ -1153,7 +1156,7 @@ menu-item:not(:last-child) {
     margin-top: -440px;
   }
   .text-list2 {
-    margin-top: 50px;
+    margin-top: 0px;
   }
   .text-list2::after {
     display: block;
@@ -1171,6 +1174,9 @@ menu-item:not(:last-child) {
   }
   .tb2 {
     padding-top: 20px;
+  }
+  .text-box3 {
+    padding-top: -20px;
   }
 }
 .parf-page {
