@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .container {
+       width: 768px;
+       padding-left: auto;
+       padding-right: auto;
+   }
+   .parf-page {
+    width: 768px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.parf-page {
+    padding-bottom: 30px;
+     }
+     .text-list-title {
+    
+        text-align: center;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 30px;
+        color: #582930;
+    
+      }
+      .card {
+        width: 250px;
+        height: 275px;
+        border: 1px solid #582930
+       
+    }
+    .shop-card-items:not(:nth-child(2n)) {
+        margin-right: 60px;
+}
+    }
