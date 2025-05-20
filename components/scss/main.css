@@ -268,44 +268,6 @@ menu-item:not(:last-child) {
     color: rosybrown;
   }
 }
-/*============ SHOP PAGE =============*/
-/*.card-overlay1{
-    display: block;
-    position: relative;
-
-}
-.card-overlay:hover .overlay,
-.card-overlay:focus .overlay
-{
-    transform: translate(0, 0);
-}
-
-.wrapper{
-    position: relative; 
-    overflow: hidden;  
-}
-
-.overlay{
-position: absolute;
-left: 0;
-top: 0;
-width: 100%;
-height: 100%;
-overflow-y: scroll;
-transform:translate(100%, 0);
-text-align: center;
-font-family: 'Open Sans', sans-serif;
-font-weight: 400;
-font-size: 16px;
-color: #FFFFFF;
-padding-top: 20px;
-padding-bottom: 20px;
-padding-left: 10px;
-padding-right: 10px;
-background-color: rgba(250, 240, 240, 0.9);
-background-image: linear-gradient(rgba(99, 8, 8, 0.9), rgba(145, 109, 110, 0.2));
-transition: transform 500ms linear;
-}*/
 /*============CONTACT===============*/
 /*.contact{
 padding-top: 80px; /*отступы м/ж секциями*/
@@ -1363,17 +1325,51 @@ padding-top: 80px; /*отступы м/ж секциями*/
 .shop-card-items {
   display: block;
   margin-left: 6px;
-  /* padding-left: 30px;
-   padding-right: 30px;*/
 }
 
-.shop-card-items:not(:nth-child(3n)) {
-  margin-right: 160px;
+@media screen and (min-width: 1200px) {
+  .shop-card-items:not(:nth-child(3n)) {
+    margin-right: 160px;
+  }
 }
-
 .parfume-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 480px;
+    padding-left: auto;
+    padding-right: auto;
+  }
+  .parf-page {
+    width: 480px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .parf-page {
+    padding-bottom: 30px;
+  }
+  .text-list-title {
+    text-align: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    color: #582930;
+  }
+  .card {
+    width: 290px;
+    height: 320px;
+    border: 1px solid #582930;
+  }
+  .card-name {
+    text-align: center;
+    margin-right: 0px;
+  }
+  .shop-btn {
+    margin-left: 40px;
+  }
 }/*# sourceMappingURL=main.css.map */
