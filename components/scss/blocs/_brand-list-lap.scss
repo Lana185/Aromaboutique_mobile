@@ -1,0 +1,46 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .brand-section {
+        padding-top: 30px; /*отступы м/ж секциями*/
+        padding-bottom: 30px;
+    }
+    .container {
+        width: 800px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        }
+        .background-brand-list{
+            padding-top: 50px;
+            padding-bottom: 50px;
+            flex-grow: 1;
+            background: #ad827e;
+            background-image: linear-gradient(rgba(185, 141, 141, 0.5), rgb(130, 88, 63, 0.2)), url(/hero_img/bg6_lap.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            /*========background-origin: border-box;*/
+        }
+        .info-text {
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.8;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+        .box {
+           justify-content: center;
+           
+            width: 350px;
+            height: 500px;
+          
+            top: -50px;
+            right: 248px;
+            }
+            .text-box {
+                margin-left: 70px;
+            }
+    }

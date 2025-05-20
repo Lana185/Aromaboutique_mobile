@@ -268,167 +268,44 @@ menu-item:not(:last-child) {
     color: rosybrown;
   }
 }
-/*==========BRAND LIST===========*/
-/*
-
-
 /*============ SHOP PAGE =============*/
-/*.barrois {
-    padding-bottom: 130px;
-     }
-
-  .bianchi {
-     padding-bottom: 130px;
-
-  }
-   .shop-card {
-
-    display: flex;
-    flex-wrap: wrap;    
-    justify-content: space-evenly;
-    gap: 160px;
+/*.card-overlay1{
+    display: block;
+    position: relative;
 
 }
-  .text-list-title {
-    margin-right: 130px;
-    margin-left: 130px;
-    text-align: center;
-    margin-bottom: 50px;
-    color: #582930;
-
-  }
-
-    .card-name {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.36;
-    letter-spacing: 0.02em;
-    color: #582930;
-     text-align: center;
-     margin-bottom: 20px;
-     margin-top: 20px;
-    }
-
-      .card{
-        width: 200px;
-        height: 220px;
-        border: 1px solid #582930
-
-    }
-    .sign{
-        fill: white;
-    }
-
-    .shop-card{
-        display: flex;
-    }
-
-    .card-overlay1{
-        display: block;
-        position: relative;
-
-    }
-    .card-overlay:hover .overlay,
-    .card-overlay:focus .overlay
-    {
-        transform: translate(0, 0);
-    }
-
-    .wrapper{
-        position: relative; 
-        overflow: hidden;  
-    }
-
-    .overlay{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow-y: scroll;
-    transform:translate(100%, 0);
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFFFFF;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: rgba(250, 240, 240, 0.9);
-    background-image: linear-gradient(rgba(99, 8, 8, 0.9), rgba(145, 109, 110, 0.2));
-    transition: transform 500ms linear;
-    }
-    .two-btn {
-    display: flex;
-    justify-content: center;
-  }
-
-   .shop-btn {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 1px solid var(--main-color);
-    border-radius: 8px;
-    width: 175px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 1.2;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    /*прозрачная*/
-/*  background-color: transparent; 
-  /*============color: #FFFFFF;*/
-/*}
-
- .shop-btn:hover,
- .shop-btn:focus {
-    background-color: var(--main-color);
-    color: white;
- } 
-
-
-/*------------checkbox----------*/
-/*.value-item-price{
-   display: flex;
-   justify-content: end;
-   gap: 50px;
-   padding-bottom: 20px;
-   margin-right: 40px;
-   flex-wrap: wrap;
-   flex-direction: row-reverse;
-
-   color: #582930;
-
-
+.card-overlay:hover .overlay,
+.card-overlay:focus .overlay
+{
+    transform: translate(0, 0);
 }
-.price-parf{
-   display: flex;
-   font-family: 'Open Sans', sans-serif;
-   font-weight: 600;
-   font-size: 14px;
-   line-height: 1.4;
-   letter-spacing: 0.02em;
-   text-transform: uppercase;
-   color: #582930
 
-
+.wrapper{
+    position: relative; 
+    overflow: hidden;  
 }
- .value-item-parf{
-   padding-left: 30px;  
- }
 
-
-
-
-
-
-
-
+.overlay{
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow-y: scroll;
+transform:translate(100%, 0);
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: rgba(250, 240, 240, 0.9);
+background-image: linear-gradient(rgba(99, 8, 8, 0.9), rgba(145, 109, 110, 0.2));
+transition: transform 500ms linear;
+}*/
 /*============CONTACT===============*/
 /*.contact{
 padding-top: 80px; /*отступы м/ж секциями*/
@@ -1189,7 +1066,7 @@ padding-top: 80px; /*отступы м/ж секциями*/
   /*========background-origin: border-box;*/
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .box {
     display: block;
     justify-content: center;
@@ -1260,6 +1137,53 @@ padding-top: 80px; /*отступы м/ж секциями*/
   transition: color 250ms linear;
 }
 
+.text-list-item1 {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .brand-section {
+    padding-top: 30px; /*отступы м/ж секциями*/
+    padding-bottom: 30px;
+  }
+  .container {
+    width: 800px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .background-brand-list {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-grow: 1;
+    background: #ad827e;
+    background-image: linear-gradient(rgba(185, 141, 141, 0.5), rgba(130, 88, 63, 0.2)), url(/hero_img/bg6_lap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*========background-origin: border-box;*/
+  }
+  .info-text {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .box {
+    justify-content: center;
+    width: 350px;
+    height: 500px;
+    top: -50px;
+    right: 248px;
+  }
+  .text-box {
+    margin-left: 70px;
+  }
+}
 @media screen and (max-width: 767px) {
   .brand-section {
     padding-top: 30px; /*отступы м/ж секциями*/
@@ -1334,4 +1258,122 @@ padding-top: 80px; /*отступы м/ж секциями*/
   .tb2 {
     padding-top: 20px;
   }
+}
+.parf-page {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.parf-page {
+  padding-bottom: 130px;
+}
+
+.bianchi {
+  padding-bottom: 130px;
+}
+
+.text-list-title {
+  margin-right: 130px;
+  margin-left: 130px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #582930;
+}
+
+.card-name {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.02em;
+  color: #582930;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 65px;
+}
+
+.card {
+  width: 200px;
+  height: 220px;
+  border: 1px solid #582930;
+}
+
+.sign {
+  fill: white;
+}
+
+.shop-btn {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid var(--main-color);
+  border-radius: 8px;
+  width: 175px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.shop-btn:hover,
+.shop-btn:focus {
+  background-color: var(--main-color);
+  color: white;
+}
+
+/*------------checkbox----------*/
+.value-item-price {
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+  padding-bottom: 20px;
+  margin-right: 40px;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  color: #582930;
+}
+
+.price-parf {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #582930;
+}
+
+.value-item-parf {
+  margin-left: -30px;
+}
+
+.two-btn {
+  display: flex;
+  justify-content: center;
+  margin-right: 60px;
+  padding-bottom: 60px;
+}
+
+.shop-card-items {
+  display: block;
+  margin-left: 6px;
+  /* padding-left: 30px;
+   padding-right: 30px;*/
+}
+
+.shop-card-items:not(:nth-child(3n)) {
+  margin-right: 160px;
+}
+
+.parfume-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 10px;
 }/*# sourceMappingURL=main.css.map */

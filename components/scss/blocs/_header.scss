@@ -189,66 +189,9 @@
  }
 }
  
-
- 
-
- /*==========BRAND LIST===========*/
- /*
-
-
  /*============ SHOP PAGE =============*/
-  /*.barrois {
-    padding-bottom: 130px;
-     }
-  
-  .bianchi {
-     padding-bottom: 130px;
     
-  }
-   .shop-card {
-    
-    display: flex;
-    flex-wrap: wrap;    
-    justify-content: space-evenly;
-    gap: 160px;
-   
-}
-  .text-list-title {
-    margin-right: 130px;
-    margin-left: 130px;
-    text-align: center;
-    margin-bottom: 50px;
-    color: #582930;
-
-  }
-
-    .card-name {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.36;
-    letter-spacing: 0.02em;
-    color: #582930;
-     text-align: center;
-     margin-bottom: 20px;
-     margin-top: 20px;
-    }
-
-      .card{
-        width: 200px;
-        height: 220px;
-        border: 1px solid #582930
-       
-    }
-    .sign{
-        fill: white;
-    }
-  
-    .shop-card{
-        display: flex;
-    }
-    
-    .card-overlay1{
+    /*.card-overlay1{
         display: block;
         position: relative;
               
@@ -284,69 +227,10 @@
     background-color: rgba(250, 240, 240, 0.9);
     background-image: linear-gradient(rgba(99, 8, 8, 0.9), rgba(145, 109, 110, 0.2));
     transition: transform 500ms linear;
-    }
-    .two-btn {
-    display: flex;
-    justify-content: center;
-  }
-    
-   .shop-btn {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 1px solid var(--main-color);
-    border-radius: 8px;
-    width: 175px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 1.2;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    /*прозрачная*/
-  /*  background-color: transparent; 
-    /*============color: #FFFFFF;*/
- /*}
-
- .shop-btn:hover,
- .shop-btn:focus {
-    background-color: var(--main-color);
-    color: white;
- } 
-
-
-/*------------checkbox----------*/
+    }*/
  
-
- /*.value-item-price{
-    display: flex;
-    justify-content: end;
-    gap: 50px;
-    padding-bottom: 20px;
-    margin-right: 40px;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    
-    color: #582930;
     
   
- }
- .price-parf{
-    display: flex;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.4;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: #582930
-
-
- }
-  .value-item-parf{
-    padding-left: 30px;  
-  }
 
 
 

@@ -1,0 +1,123 @@
+.parf-page {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.parf-page {
+    padding-bottom: 130px;
+     }
+  
+  .bianchi {
+     padding-bottom: 130px;
+    
+  }
+
+  .text-list-title {
+    
+    margin-right: 130px;
+    margin-left: 130px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #582930;
+
+  }
+
+    .card-name {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.36;
+    letter-spacing: 0.02em;
+    color: #582930;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     margin-right: 65px;
+    }
+
+      .card{
+        width: 200px;
+        height: 220px;
+        border: 1px solid #582930
+       
+    }
+    .sign{
+        fill: white;
+    }
+  
+  
+    .shop-btn {
+       
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid var(--main-color);
+        border-radius: 8px;
+        width: 175px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 1.2;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+     }
+    
+     .shop-btn:hover,
+     .shop-btn:focus {
+        background-color: var(--main-color);
+        color: white;
+     } 
+     /*------------checkbox----------*/
+    
+   .value-item-price {
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    padding-bottom: 20px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    
+    color: #582930;
+    
+  
+ }
+ .price-parf{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #582930
+
+
+ }
+  .value-item-parf{
+    margin-left: -30px;
+  }
+  .two-btn {
+    display: flex;
+    justify-content: center;
+    margin-right: 60px;
+    padding-bottom: 60px;
+  }
+    .shop-card-items {
+        display: block;
+       margin-left: 6px;
+
+       /* padding-left: 30px;
+        padding-right: 30px;*/
+    }
+    .shop-card-items:not(:nth-child(3n)) {
+        margin-right: 160px;
+}
+
+    .parfume-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
